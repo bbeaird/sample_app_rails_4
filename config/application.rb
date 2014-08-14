@@ -5,6 +5,7 @@
     require "action_controller/railtie"
     require "action_mailer/railtie"
     require "sprockets/railtie"
+    require 'dotenv'; Dotenv.load
     # require "rails/test_unit/railtie"
 
     # Assets should be precompiled for production (so we don't need the gems loaded then)
